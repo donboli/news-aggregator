@@ -293,7 +293,7 @@ main.loading {
   left: 16px;
   top: 50%;
   margin-top: -48px;
-  background: url(../images/ic_close_24px.svg) center center no-repeat;
+  background: url(images/ic_close_24px.svg) center center no-repeat;
   border: none;
   text-indent: -10000px;
   border-radius: 0;
