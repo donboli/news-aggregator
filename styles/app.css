@@ -120,7 +120,7 @@ main {
 }
 
 main.loading {
-  background: url(../images/loader.png) center center no-repeat;
+  background: url(images/loader.png) center center no-repeat;
   background-size: 24px 24px;
 
   -webkit-animation-name: spin;

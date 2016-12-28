@@ -12,7 +12,7 @@ gulp.task('default', function() {
       js: uglify,
       css: [minifyCss, autoprefixer({ browsers:['last 2 versions'] })],
       // disabledTypes: ['svg', 'img', 'js'],
-      ignore: ['../third_party/handlebars-v3.0.0.js']
+      ignore: ['third_party/handlebars-v3.0.0.js']
     }))
     .pipe(gulp.dest('./'));
 });
